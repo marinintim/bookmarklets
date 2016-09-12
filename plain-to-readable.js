@@ -1,9 +1,10 @@
 /// plain-to-readable.js
 
 !(function plainToReadable() {
-  var body = document.body
-  body.style.maxWidth = '800px'
-  body.style.fontSize = '14pt'
-  body.style.lineHeight = '1.618'
-  body.style.fontFamily = 'Georgia, serif, Arial'
+  var style = document.body.style;
+  style.maxWidth = '800px';
+  style.fontSize = '14pt';
+  style.lineHeight = '1.618';
+  style.fontFamily = 'Georgia, serif, Arial';
+  style.margin = '0 auto';
 })()
